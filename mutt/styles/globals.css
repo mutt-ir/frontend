@@ -3,7 +3,12 @@ body {
   padding: 0;
   margin: 0;
   font-family: "IranSans";
-  @apply bg-blue-600;
+  font-size: 14px;
+  direction: rtl;
+  @apply bg-blue-50;
+}
+input[type="search"] {
+  direction: ltr;
 }
 
 @font-face {
